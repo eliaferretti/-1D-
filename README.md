@@ -1,4 +1,3 @@
-1D modelling of pure diffusion using Stefan-Maxwell model.
-
-- ideal gas mixture assumed
-- diffusivities matrix and result validation are from article: "On the Maxwell-Stefan Approach to Diffusion: A General Resolution in the Transient Regime for One-Dimensional Systems" - E.Leonardi, C.Angeli
+A 1D modelling of pure diffusion using Stefan-Maxwell model is presented. Finite difference form of the transport equations is used along with an explicit forward Euler method for time discretization and centered differencing scheme for space discretization. Ideal gas mixture is considered.
+The problem setup, diffusivities matrix and result validation are from article: "On the Maxwell-Stefan Approach to Diffusion: A General Resolution in the Transient Regime for One-Dimensional Systems" - E.Leonardi, C.Angeli
+https://www.researchgate.net/publication/40678717_On_the_Maxwell-Stefan_Approach_to_Diffusion_A_General_Resolution_in_the_Transient_Regime_for_One-Dimensional_Systems
